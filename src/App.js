@@ -1,5 +1,5 @@
 import { ToastContainer, toast } from 'react-toastify'
-import { Home, Login, Public } from './containers/public/'
+import { Home, Login, Discover } from './containers/public'
 import 'react-toastify/dist/ReactToastify.css'
 // import appReducer from './store/reducer/appReducer'
 import { Routes, Route } from 'react-router-dom'
@@ -10,7 +10,7 @@ function App() {
     <>
       <div className=''>
         <Routes>
-          <Route path={path.PUBLIC} element={<Public />}>
+          <Route path={path.DISCOVER} element={<Discover />}>
             <Route path={path.HOME} element={<Home />} />
             <Route path={path.LOGIN} element={<Login />} />
           </Route>

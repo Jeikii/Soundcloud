@@ -1,3 +1,3 @@
 export { default as Home } from './Home'
-export { default as Public } from './Public'
+export { default as Discover } from './Discover'
 export { default as Login } from './Login'
